@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+.container{
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: aquamarine;
+    margin: 5px 5px 5px 5px;
+    padding-left: 10px;
+     
+}
+
+
+.box{
+    text-align: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+.box-title{
+    float: right;
+    top: 0px;
+    right: 0px; 
+    margin-left: 900px;
+    margin-bottom: 5px;
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.title1{
+    background-color: orchid;
+}
+.title2{
+    background-color: beige
+}
+.title3{
+    background-color: burlywood;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+   .col-lg-3 {
+    float: left;
+ 
+  }
+  
+  .col-lg-3 {
+    width: 33%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left; 
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
